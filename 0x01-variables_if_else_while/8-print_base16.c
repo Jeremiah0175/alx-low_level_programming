@@ -2,22 +2,21 @@
 /**
  * main -entry point
  *
- * Function main - a program that prints all possible.
+ * fuction main - a program that prints all the numbers of base 16.
  *
  * Return: 0
  */
 int main(void)
 {
-	int c;
+	char c;
 
-	for (c = 48; c <= 57; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
-		if (c != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+	}
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
