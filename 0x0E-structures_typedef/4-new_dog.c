@@ -62,6 +62,7 @@ int _strlen(char *s)
 	return (index);
 }
 /**
+ * _strcpy - function
  * @src: copy from
  * @dest: copy to
  * Description: copies strng pnted by src to dest with null
