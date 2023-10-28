@@ -3,8 +3,14 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
-int _putchar(char c)
+/**
+ * _puts - Prints a string followed by a new line.
+ * @s: The input string to be printed.
+ *
+ * Description: This function prints the characters of the input string
+ * followed by a new line character.It uses the standard library function puts.
+ */
+void _puts(char *s)
 {
-    return putchar(c);
+puts(s);
 }
